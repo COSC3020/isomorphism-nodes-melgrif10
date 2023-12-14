@@ -10,3 +10,5 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+Two graphs that don't have the same number of nodes cannot be isomorphic because a bijective function could not exist. In order to have a bijective function each element of set A has to be paired with an element of set B and vice versa. The elements in set A can't be paired with more than one element of set B and vice versa. If $|V_1|<|V_2|$ there must be at least at least one element in $V_2$ that isn't mapped to any element that exists in $V_1$. This directly contradicts the definiton of a bijection and therefore if graphs A and B don't have the same number of nodes they can't be isomorphic.
